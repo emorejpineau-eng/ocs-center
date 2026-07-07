@@ -1,0 +1,76 @@
+.ai-layout {
+  display: flex;
+  gap: 15px;
+}
+
+/* CHAT */
+.chat-box {
+  flex: 2;
+  background: var(--card);
+  border-radius: var(--radius);
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
+}
+
+.chat-messages {
+  flex: 1;
+  padding: 15px;
+  overflow-y: auto;
+}
+
+.msg {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  max-width: 70%;
+}
+
+.msg.bot {
+  background: #1f2a44;
+}
+
+.msg.user {
+  background: var(--primary);
+  color: black;
+  margin-left: auto;
+}
+
+/* INPUT */
+.chat-input {
+  display: flex;
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  background: transparent;
+  color: white;
+}
+
+.chat-input button {
+  background: var(--primary);
+  border: none;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+/* TOOLS */
+.ai-tools {
+  flex: 1;
+  display: grid;
+  gap: 10px;
+}
+
+.tool-card {
+  background: var(--card);
+  padding: 15px;
+  border-radius: var(--radius);
+  cursor: pointer;
+}
+
+.tool-card:hover {
+  background: #222f48;
+}

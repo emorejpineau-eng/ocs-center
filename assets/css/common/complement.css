@@ -1,0 +1,19 @@
+button {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background: var(--primary);
+  color: black;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+section {
+  max-width: 1200px;
+  margin: auto;
+}

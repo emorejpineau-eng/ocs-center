@@ -1,0 +1,20 @@
+:root {
+  --primary: #00D4FF;
+  --secondary: #0095FF;
+
+  --bg: #0B1220;
+  --surface: #151E2F;
+  --card: #1D273A;
+
+  --text: #FFFFFF;
+  --text-light: #AAB7C4;
+
+  --radius: 14px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}

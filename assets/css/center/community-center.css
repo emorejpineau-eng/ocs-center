@@ -1,0 +1,42 @@
+/* FEED */
+.feed {
+  margin-top: 20px;
+  background: var(--card);
+  padding: 20px;
+  border-radius: var(--radius);
+}
+
+.post {
+  padding: 15px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+/* DISCUSSIONS */
+.discussions {
+  margin-top: 20px;
+  background: var(--card);
+  padding: 20px;
+  border-radius: var(--radius);
+}
+
+.thread {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.thread:hover {
+  background: rgba(0,212,255,0.1);
+}
+
+/* EVENTS */
+.events {
+  margin-top: 20px;
+  background: var(--card);
+  padding: 20px;
+  border-radius: var(--radius);
+}
+
+.event {
+  padding: 10px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}

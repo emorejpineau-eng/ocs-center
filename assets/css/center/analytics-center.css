@@ -1,0 +1,57 @@
+/* CHART GRID */
+.chart-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.chart-box {
+  background: var(--card);
+  padding: 20px;
+  border-radius: var(--radius);
+}
+
+/* FAKE CHARTS (placeholders UI) */
+.fake-chart {
+  height: 120px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #00D4FF, #0095FF);
+  opacity: 0.4;
+}
+
+.fake-chart.bar {
+  background: linear-gradient(90deg, #2ECC71, #00D4FF);
+}
+
+.fake-chart.area {
+  background: linear-gradient(90deg, #F39C12, #E74C3C);
+}
+
+.fake-chart.line2 {
+  background: linear-gradient(90deg, #9B59B6, #00D4FF);
+}
+
+/* TABLE */
+.table-box {
+  margin-top: 20px;
+  background: var(--card);
+  padding: 20px;
+  border-radius: var(--radius);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+th {
+  color: var(--text-light);
+}

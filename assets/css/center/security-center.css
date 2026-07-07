@@ -1,0 +1,57 @@
+/* SCORE */
+.security-score {
+  background: var(--card);
+  padding: 25px;
+  border-radius: var(--radius);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.security-score .score {
+  font-size: 48px;
+  color: var(--primary);
+  font-weight: bold;
+}
+
+/* KPI variations */
+.kpi-card.danger {
+  border: 1px solid #E74C3C;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.kpi-card.warning {
+  border: 1px solid #F39C12;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.kpi-card {
+  padding: 10px;
+}
+
+/* ALERTS */
+.alert-box {
+  margin-top: 20px;
+  background: var(--card);
+  padding: 20px;
+  border-radius: var(--radius);
+}
+
+.alert {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.alert.danger {
+  background: rgba(231,76,60,0.2);
+}
+
+.alert.warning {
+  background: rgba(243,156,18,0.2);
+}
+
+.alert.ok {
+  background: rgba(46,204,113,0.2);
+}
