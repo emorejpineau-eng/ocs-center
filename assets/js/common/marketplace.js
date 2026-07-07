@@ -31,7 +31,7 @@ function renderModules() {
           <span style="color:var(--muted);font-size:12px;">${m.type}</span>
         </div>
 
-        <button onclick="installModule(${index})">
+        <button class="button" onclick="installModule(${index})">
           ${m.installed ? "Installed" : "Install"}
         </button>
       </div>

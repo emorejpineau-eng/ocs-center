@@ -70,6 +70,16 @@ body {
   transition: 0.2s;
 }
 
+.nav {
+  color: #FFFFFF;
+  font-weight: 700;
+}
+
+.nav:hover {
+  color: #00D4FF;
+  font-weight: 700;
+}
+
 .nav-item:hover {
   background: var(--card);
   color: var(--text);

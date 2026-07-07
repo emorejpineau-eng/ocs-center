@@ -72,6 +72,7 @@
 
       <div class="nav-section">SYSTEM</div>
       <a href="#" class="nav-item active">⚙️ Admin</a>
+      <a href="contact.html" class="nav-item">📧 Contact</a>
 
     <footer class="footer">
       <div class="footer-center">
@@ -113,7 +114,7 @@
 
         <input id="userName" placeholder="New user" style="width:100%;margin-top:10px;padding:8px;background:#0B1220;border:none;color:white;">
 
-        <button onclick="addUser()" style="margin-top:10px;">
+        <button class="button" onclick="addUser()" style="margin-top:10px;">
           Add User
         </button>
       </div>
@@ -124,7 +125,7 @@
 
         <div id="roleBox" style="margin-top:10px;"></div>
 
-        <button onclick="toggleRole()">Toggle Admin Mode</button>
+        <button class="button" onclick="toggleRole()">Toggle Admin Mode</button>
       </div>
 
       <!-- SYSTEM CONTROL -->
@@ -135,8 +136,8 @@
           Status: <span id="sysStatus">ONLINE</span>
         </div><br><br>
 
-        <button onclick="shutdownSystem()">Shutdown</button>
-        <button onclick="restartSystem()">Restart</button>
+        <button class="button" onclick="shutdownSystem()">Shutdown</button>
+        <button class="button" onclick="restartSystem()">Restart</button>
       </div>
 
       <!-- AUDIT LOGS -->
